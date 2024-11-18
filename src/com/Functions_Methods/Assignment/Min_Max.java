@@ -9,9 +9,9 @@ public class Min_Max {
         int second = in.nextInt();
         int third = in.nextInt();
         int Largest = Largest(first, second, third);
-        int smallest = Smallest(first, second, third);
-        System.out.printf("largest of three numbers %d, %d, and %d is : %d %n", first, second, third, largest);
-        System.out.printf("smallest of three numbers %d, %d, and %d is : %d %n", first, second, third, smallest);
+        int Smallest = Smallest(first, second, third);
+        System.out.printf("largest of three numbers %d, %d, and %d is : %d %n", first, second, third, Largest);
+        System.out.printf("smallest of three numbers %d, %d, and %d is : %d %n", first, second, third, Smallest);
     }
     public static int Largest(int first,int second,int third){
         int max = first;
