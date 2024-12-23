@@ -7,6 +7,7 @@ public class maximum {
         Scanner in = new Scanner(System.in);
         int[] arr = {1,22,5,66,9,3,9};
         System.out.println(max(arr));
+
     }
 
     // we take the first ele as the max val and then compare it till the array length
