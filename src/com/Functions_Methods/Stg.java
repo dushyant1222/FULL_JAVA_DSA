@@ -6,7 +6,7 @@ public class Stg {
     public static void main(String[] args) {
 //        String g = stg1();
 //        System.out.println(g);
-        String pmsg = stg2("Dushyant Loves Shivani");
+        String pmsg = stg2("Shivani");
         System.out.println(pmsg);
     }
     static String stg2(String msg){
