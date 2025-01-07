@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.*;
 
 public static void Grad() {
         Scanner in = new Scanner(System.in);
